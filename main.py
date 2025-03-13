@@ -105,7 +105,7 @@ def main_loop():
     print("type path to word_list")
     path = input()
     wl = data_parse(path,",")
-    print("best_word: "+ "sores")
+    print("best_word: "+ most_propable(wl))
     print("""type your question:
               0a0b0c0d.... - letter not known
 
